@@ -1,6 +1,6 @@
 # Excel Salary Dashboard
 
-
+![Dashboard Preview](Images/project_Gif.gif)
 
 ## Introduction
 
@@ -9,7 +9,7 @@ This data jobs salary dashboard was created to help job seekers investigate sala
 The data is from Luke Barousse's Excel course, which provides a foundation in analyzing data using this powerful tool. The dataset contains detailed information on job titles, salaries, locations, and essential skills.
 
 ### Dashboard File
-My final dashboard is in [1_Salary_Dashboard.xlsx](1_Salary_Dashboard.xlsx).
+My final dashboard is in [Salary_Dashboard_01.xlsx](Salary_Dashboard_01.xlsx).
 
 ### Excel Skills Used
 
@@ -34,7 +34,7 @@ The dataset contains real-world data science job information from 2023. It inclu
 
 #### 📊 Data Science Job Salaries - Bar Chart
 
-![Bar Chart](images/chart_bar.png)
+![Bar Chart](Images/char_bar.jpeg)
 
 - 🛠️ **Excel Features:** Utilized bar chart feature with formatted salary values and optimized layout for clarity.
 - 🎨 **Design Choice:** Horizontal bar chart for easy visual comparison of median salaries across roles.
@@ -45,7 +45,7 @@ The dataset contains real-world data science job information from 2023. It inclu
 
 #### 🗺️ Country Median Salaries - Map Chart
 
-![Map Chart](images/chart_map.png)
+![Map Chart](Images/map.jpeg)
 
 - 🛠️ **Excel Features:** Utilized Excel's map chart feature to plot median salaries globally.
 - 🎨 **Design Choice:** Color-coded map to visually differentiate salary levels across regions.
@@ -76,11 +76,11 @@ IF(
 
 🍽️ **Background Table**
 
-![Background Table](images/table_background.png)
+![Background Table](Images/table_background%20.jpeg)
 
 📉 **Dashboard Implementation**
 
-![Dashboard Implementation](images/dashboard_impl.png)
+![Dashboard Implementation](Images/dashboard_impl.jpeg)
 
 ---
 
@@ -110,3 +110,8 @@ IF(
 
 I built this dashboard as part of Luke Barousse's Excel course to explore salary trends across data-related job titles. The dashboard allows users to filter by job title, country, and schedule type to make informed career decisions. This project helped me strengthen my Excel skills — particularly array formulas, map charts, and data validation.
 
+---
+
+## Acknowledgements
+
+This project is based on the original work by **[Luke Barousse](https://github.com/lukebarousse)** from his Excel Data Analytics course. The dataset, structure, and core analysis approach are credited to him. I replicated this project as a hands-on learning exercise to strengthen my Excel skills in charts, formulas, and data validation.
