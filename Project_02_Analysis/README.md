@@ -1,4 +1,4 @@
-# Excel Data Analytics — Project 2: Job Market Analysis
+# Project 2: Excel Data Analytics - Job Market Analysis
 
 ## Introduction
 
@@ -44,7 +44,7 @@ Cleaned the dataset by changing column types, removing unnecessary columns, repl
 
 **data_job_skills — Applied Steps:**
 
-![Power Query Steps - data_job_skills](Images/P2_SS_02.png)
+![Power Query Steps - data_job_skills](Images&Charts/P2_SS_02.png)
 
 Cleaned the skills data by removing brackets, replacing delimiters, splitting columns, unpivoting, trimming text, capitalizing values, and renaming the final column.
 
