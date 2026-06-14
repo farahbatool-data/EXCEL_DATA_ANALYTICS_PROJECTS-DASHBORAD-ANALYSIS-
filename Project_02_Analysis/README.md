@@ -38,13 +38,13 @@ Used Power Query to load the raw dataset and split it into two separate queries:
 
 **data_jobs_all — Applied Steps:**
 
-![Power Query Steps - data_jobs_all](images/P2_SS_01.png)
+![Power Query Steps - data_jobs_all](Images/P2_SS_01.png)
 
 Cleaned the dataset by changing column types, removing unnecessary columns, replacing text values, inserting calculated columns, and reordering fields for clarity.
 
 **data_job_skills — Applied Steps:**
 
-![Power Query Steps - data_job_skills](images/P2_SS_02.png)
+![Power Query Steps - data_job_skills](Images/P2_SS_02.png)
 
 Cleaned the skills data by removing brackets, replacing delimiters, splitting columns, unpivoting, trimming text, capitalizing values, and renaming the final column.
 
@@ -52,15 +52,15 @@ Cleaned the skills data by removing brackets, replacing delimiters, splitting co
 
 **data_job_salary loaded:**
 
-![Loaded data_job_salary](images/P2_SS_03.png)
+![Loaded data_job_salary](Images/P2_SS_03.png)
 
 **data_job_skills loaded:**
 
-![Loaded data_job_skills](images/P2_SS_04.png)
+![Loaded data_job_skills](Images/P2_SS_04.png)
 
 ### 📊 Analysis
 
-![Skills vs Salary Chart](images/P2_Chart_01.jpeg)
+![Skills vs Salary Chart](Images/P2_Chart_01.jpeg)
 
 **💡 Insights:**
 - A clear positive correlation exists between number of skills requested and median salary.
@@ -92,7 +92,7 @@ Median Salary := MEDIAN(data_jobs_all[salary_year_avg])
 
 ### 📊 Analysis
 
-![Salary by Region Table](images/P2_Chart_02.png)
+![Salary by Region Table](Images/P2_Chart_02.png)
 
 **💡 Insights:**
 - US salaries are consistently higher than Non-US across all roles.
@@ -112,15 +112,15 @@ Built a data model by connecting `data_jobs_all` and `data_job_skills` tables us
 
 **Data Model:**
 
-![Data Model Diagram](images/P2_SS_05.png)
+![Data Model Diagram](Images/P2_SS_05.png)
 
 **Power Pivot Table:**
 
-![Power Pivot Menu](images/P2_SS_06.png)
+![Power Pivot Menu](Images/P2_SS_06.png)
 
 ### 📊 Analysis
 
-![Top Skills Chart](images/P2_Chart_03.png)
+![Top Skills Chart](Images/P2_Chart_03.png)
 
 **💡 Insights:**
 - SQL leads at ~70% likelihood in job postings, followed closely by Python at ~65%.
@@ -142,7 +142,7 @@ Built a combo chart with:
 
 ### 📊 Analysis
 
-![Top 10 Skills Pay Chart](images/P2_Chart_04.png)
+![Top 10 Skills Pay Chart](Images/P2_Chart_04.png)
 
 **💡 Insights:**
 - Python, Oracle, and Tableau are associated with the highest median salaries (~$95K-$100K).
