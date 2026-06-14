@@ -44,7 +44,7 @@ Cleaned the dataset by changing column types, removing unnecessary columns, repl
 
 **data_job_skills — Applied Steps:**
 
-![Power Query Steps - data_job_skills](Image_Charts/P2_SS_02.png)
+![Power Query Steps - data_job_skills](Image_Charts/P2_SS_02.jpeg)
 
 Cleaned the skills data by removing brackets, replacing delimiters, splitting columns, unpivoting, trimming text, capitalizing values, and renaming the final column.
 
@@ -52,11 +52,11 @@ Cleaned the skills data by removing brackets, replacing delimiters, splitting co
 
 **data_job_salary loaded:**
 
-![Loaded data_job_salary](Image_Charts/P2_SS_03.png)
+![Loaded data_job_salary](Image_Charts/P2_SS_03.jpeg)
 
 **data_job_skills loaded:**
 
-![Loaded data_job_skills](Image_Charts/P2_SS_04.png)
+![Loaded data_job_skills](Image_Charts/P2_SS_04.jpeg)
 
 ### 📊 Analysis
 
